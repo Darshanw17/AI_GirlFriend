@@ -33,5 +33,5 @@
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/sakshi-ai-gf.git
+git clone https://github.com/your-username/nova-ai-gf.git
 cd nova-ai-gf
