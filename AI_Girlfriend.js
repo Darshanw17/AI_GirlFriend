@@ -43,7 +43,7 @@ r.onstart= function(){
 	}
 	
 	
-   const API_KEY = 'AIzaSyC2nRKLPgrV7myiDDmJZ1aJmEiSov5xcPQ';
+   const API_KEY = ''; //replace with the actual api key
 	const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`, {
 	method:'POST',
 	headers:{'Content-type':'application/json'},
@@ -58,7 +58,7 @@ r.onstart= function(){
   
   async function speak(text){
 	
-	const API_KEY = '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'
+	const API_KEY = '' // replace with actual api key
 	
   const response = 	await fetch('https://api.openai.com/v1/audio/speech',{
 	  method:'POST',
